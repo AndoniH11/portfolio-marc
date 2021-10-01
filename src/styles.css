@@ -734,6 +734,15 @@ position: absolute;
         max-width: 95%;
     }
 
+    .proyecto h2{
+        font-size: 29px;
+    }
+
+    .proyecto p,
+    .proyecto li{
+        font-size: 19px;
+    }
+
     /* Navbar */
 
     .navbar{
@@ -741,8 +750,16 @@ position: absolute;
         margin-bottom: 20px;
     }
 
+    .proyecto .navbar{
+        margin-top: 0px;
+    }
+
+    .proyecto .navbar .menu{
+        margin-top: 10px;
+    }
+
     .navbar li:last-child{
-        margin-left: 30px;
+        margin-left: 20px;
     }
     
     .navbar a {
@@ -751,6 +768,7 @@ position: absolute;
         justify-content: center;
         align-items: center;
     }
+
 
     /* Hero */
 
@@ -876,11 +894,6 @@ max-width: 100%;
         margin-bottom: 280px;
     }
 
-.project-card .card-button{
-     margin-bottom: 210px;
-}
-
-
     .project-card .image-container img{
         width: 350px;
     }
@@ -890,6 +903,10 @@ max-width: 100%;
     .project-card.card4 .image-container p{
         text-align: center;
         left: -73vw;
+    }
+
+    .navbar a {
+        font-size: 17px;
     }
 }
 
@@ -925,7 +942,7 @@ max-width: 100%;
     }
 
     .project-card .card-button{
-        margin-bottom: 250px;
+        margin-bottom: 220px;
     }
 }
 
@@ -1059,6 +1076,11 @@ max-width: 100%;
     .overview h2{
         width: 100%;
     }
+
+    .overview p,
+    .overview li{
+        font-size: 19px;
+    }
 }
 
 /* Objective */
@@ -1128,6 +1150,11 @@ max-width: 100%;
 @media(max-width: 580px){
     .objective-container img{
         max-width: 60%;
+    }
+
+    .objective-container p,
+    .objective-container li{
+        font-size: 19px;
     }
 }
 
@@ -1208,6 +1235,11 @@ max-width: 100%;
 @media(max-width: 580px){
     .wrapper{
         padding-top: 60px;
+    }
+
+    .wrapper p,
+    .wrapper li{
+        font-size: 19px;
     }
 
     .investigation-wrapper{
@@ -1333,6 +1365,12 @@ max-width: 100%;
     }
 }
 
+@media(max-width: 580px){
+    .proyecto .grafico-imagen{
+        max-width: 100%;
+    }
+}
+
 /* Architecture */
 .architecture{
     padding-top: 66px;
@@ -1370,6 +1408,12 @@ max-width: 100%;
 @media(max-width: 900px){
     .architecture{
         margin-top: 50px;
+    }
+}
+@media(max-width: 580px){
+    .architecture p,
+    .architecture li{
+        font-size: 19px;
     }
 }
 
@@ -1426,6 +1470,17 @@ max-width: 100%;
 
     .style-guide img{
         margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 580px){
+    .style-guide img{
+        max-width: 100%;
+    }
+
+    .style-guide p,
+    .style-guide li{
+        font-size: 19px;
     }
 }
 
@@ -1575,9 +1630,23 @@ max-width: 100%;
     .solution-container .iphone-text-container .iphone-container img{
         max-width: 80%;
     }
+
+    .solution-container .iphone-text-container .iphone-container .solutionGIF4{
+        max-width: 31vw;
+    }
 }
 
+
 @media(max-width: 580px){
+
+    .solution p,
+    .solution li{
+        font-size: 19px;
+    }
+
+    .solution-container .iphone-text-container .iphone-container .solutionGIF4{
+        max-width: 57vw;
+    }
     .solution-container .iphone-text-container,
     .solution-container .iphone-text-container:nth-child(even){
         flex-direction: column;
