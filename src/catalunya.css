@@ -1,0 +1,349 @@
+/* HEADER */
+
+.catalunya header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.catalunya-header{
+    background: #480808;
+    padding-top: 220px;
+}
+
+.catalunya-header h1{
+    margin-top: 0px;
+   text-align: center;
+   font-weight: bold;
+   color: white;
+   font-family: 'Montserrat-Bold';
+   font-size: 72px;
+   line-height: 87px;
+}
+
+@media(max-width: 900px){
+    .catalunya-header{
+        padding-top: 150px;
+    }
+}
+
+@media(max-width: 767px){
+
+    .catalunya-header{
+        padding-top: 120px;
+    }
+
+    .catalunya-header h1{
+        font-size: 52px;
+    }
+}
+
+@media(max-width: 580px){
+
+    .catalunya-header h1{
+        font-size: 38px;
+    }
+
+    .catalunya .header-image-container img{
+        width: 90%;
+    }
+}
+
+@media(max-width: 400px){
+    .catalunya-header h1{
+        font-size: 33px;
+    }
+}
+
+/* OVERVIEW */
+
+.catalunya .overview{
+    margin-top: 210px;
+}
+
+@media(max-width: 1200px){
+    .catalunya .overview{
+        margin-top: 60px;
+    }
+}
+
+/* OBJECTIVE CONTAINER */
+.catalunya .objective-container{
+    background: #480808;
+}
+
+@media(max-width: 900px){
+    .catalunya .objective-container{
+        padding-bottom: 60px;
+    }
+}
+
+/* PROBLEM */
+
+.catalunya .problem-wrapper ul{
+    margin-top: -10px;
+}
+
+.catalunya .problem-wrapper li {
+    margin-left: 60px;
+}
+
+
+.catalunya .problem-wrapper li span{
+    text-decoration: underline;
+}
+
+.catalunya .problem-image-container img{
+    width: 100%;
+    border: 0.5px solid #191717;
+    border-radius: 30px;
+    margin-top: 100px;
+}
+
+@media(max-width: 900px){
+    .catalunya .problem-image-container img{
+        margin-top: 60px;
+    }
+}
+
+/* ARCHITECTURE */
+.catalunya .architecture-container{
+    margin-top: 175px;
+}
+
+.catalunya .architecture-container li{
+    list-style: disc;
+}
+
+@media(max-width: 900px){
+    .catalunya .architecture-container{
+        margin-top: 80px;
+    }
+
+    .catalunya .architecture-container h2{
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 580px){
+    .catalunya .architecture-container{
+        margin-top: 50px;
+    }
+}
+/* WIREFRAMES */
+.catalunya .wireframes-wrapper{
+    margin-top: 160px;
+}
+
+.catalunya .wireframe-images-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 90px;
+    border: 0.5px solid #191717;
+    border-radius: 30px;
+}
+
+.catalunya .wireframe-images-container img{
+    width: 30%;
+    margin: 1%;
+    height: 100%;
+}
+
+.catalunya .wireframe-images-container img:nth-child(2){
+    padding-top: 100px;
+}
+
+.catalunya .wireframe-images-container img:nth-child(3){
+    padding-top: 200px;
+}
+
+.catalunya .wireframe-images-container-2{
+    padding: 0px;
+}
+
+.catalunya .wireframe-images-container-2 img{
+    width: 90%;
+    margin: 0px;
+}
+
+@media(max-width: 900px){
+    .catalunya .wireframes-wrapper{
+        margin-top: 0px;
+    }
+
+    .catalunya .wireframe-images-container{
+        margin-top: 60px;
+    }
+
+    .catalunya .wireframe-images-container{
+        padding: 30px;
+    }
+}
+
+@media(max-width: 580px){
+    .catalunya .wireframe-images-container{
+        padding: 10px;
+    }
+}
+
+/* STYLES */
+.catalunya .style-guide h2{
+    margin-bottom: 50px;
+}
+
+@media(max-width: 900px){
+    .catalunya .style-guide h2{
+        margin-bottom: 30px;
+    }
+
+    .catalunya .style-guide img{
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+}
+
+
+@media(max-width: 580px){
+    .catalunya .style-guide{
+        padding-top: 50px;
+    }
+
+    .catalunya .style-guide img{
+        margin-bottom: 10px;
+    }
+}
+
+/* SOLUTION */
+
+.catalunya .solution-content{
+    display: flex;
+}
+
+.catalunya .solution-content ul{
+    width: 50%;
+}
+
+.catalunya .solution-content .right-div{
+    display: flex;
+    width: 50%;
+}
+
+.catalunya .solution-content .right-div img{
+    width: 45%;
+    margin-left: 5%;
+    height: 100%;
+}
+
+.catalunya .solution-images-container{
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 100px;
+}
+
+.catalunya .solution-images-container img{
+    width: 90%;
+}
+
+.catalunya .solution-images-container img:first-child{
+    margin-top: -150px;
+}
+
+.catalunya .solution-images-container img:nth-child(2),
+.catalunya .solution-images-container img:nth-child(4){
+    justify-self: flex-end;
+}
+
+.catalunya .solution-images-container img:nth-child(3){
+    margin-top: -160px;
+}
+
+@media(max-width: 900px){
+
+    .catalunya .solution-content{
+        flex-direction: column;
+    }
+
+    .catalunya .solution-content ul{
+        width: 100%;
+    }
+
+    .catalunya .solution-content .right-div{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .catalunya .solution-content .right-div img{
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .catalunya .solution-images-container{
+        margin-top: 200px;
+    }
+}
+
+@media(max-width: 767px){
+    .catalunya .solution-images-container{
+        margin-top: 100px;
+        row-gap: 60px;
+    }
+
+    .catalunya .solution-images-container img:first-child{
+        margin-top: -50px;
+    }
+
+    .catalunya .solution-images-container img:nth-child(3){
+        margin-top: -60px;
+    }
+}
+
+@media(max-width: 580px){
+    .catalunya .solution-content .right-div img{
+        max-width: 120px;
+    }
+}
+/* CONCLUSION */
+
+.catalunya .conclusion-container{
+    background: transparent;
+    padding-top: 200px;
+    
+}
+
+.catalunya .conclusion-container h2,
+.catalunya .conclusion-container p{
+    color: #191717;
+}
+
+.catalunya .conclusion-image-container{
+    padding: 150px 0px;
+    margin-top: 100px;
+    border: 0.5px solid #191717;
+    border-radius: 30px;
+}
+
+.catalunya .conclusion-image-container img{
+    position: static;
+    width: 100%;
+}
+
+@media(max-width: 900px){
+    .catalunya .conclusion-container{
+        padding-top: 70px;
+    }
+
+    .catalunya .conclusion-image-container{
+        margin-top: 60px;
+    }
+
+    .catalunya .conclusion-image-container{
+        padding: 30px;
+    }
+
+    .catalunya .conclusion-image-container img{
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,211 @@
+/* Navbar */
+
+.about-me header{
+    position: absolute;
+    width: 100vw;
+}
+
+.about-me .navbar-white a.works-link{
+    opacity: 0.5;
+}
+
+.about-me .navbar-white a.about-link{
+    opacity: 1;
+}
+
+.about-me .navbar-white a.about-link:hover{
+    opacity: 1;
+}
+
+
+/* INTRO */
+.about-me-intro{
+    background: #06433C;  
+}
+
+.about-me-intro.flip-intro-image{
+    height: auto;
+}
+
+.about-me-intro-wrapper{
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 120px;
+}
+
+.about-me-intro h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #FFF5F5; 
+}
+
+.proyecto .about-me-intro p,
+.proyecto .about-me-intro span{
+    font-family: Molengo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFF5F5; 
+    margin: 0px;
+}
+
+.proyecto .about-me-intro span{
+    text-decoration: underline;
+}
+
+.about-me-intro-content{
+    display: flex;
+}
+
+.about-me-intro-text div{
+    margin-bottom: 20px;
+}
+
+.troy-paragraph,
+.troy{
+    display: inline-block;
+}
+
+.about-me .about-me-intro-content .troy{
+    max-width: 30px;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+.about-me-intro-image{
+    margin-bottom: -100px;
+}
+
+@media(max-width: 1250px){
+    .about-me-intro-wrapper{
+        max-width: 90%;
+    }
+
+    .about-me-intro-text{
+        flex: 1;
+    }
+
+    .about-me-intro-image{
+        width: 40%;
+        padding-left: 40px;
+    }
+
+    .about-me-intro-image img{
+        width: 100%;
+    }
+}
+
+@media(max-width: 1090px){
+    .about-me-intro-image{
+        margin-bottom: 0px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media(max-width: 900px){
+    .about-me-intro-image{
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+}
+
+@media(max-width: 767px){
+    .about-me-intro-content{
+        flex-direction: column;
+    }
+
+    .about-me-intro-image{
+        justify-content: center;
+        margin: 0 auto;
+        padding: 30px 0px 40px;
+        width: 100%;
+        max-width: 280px;
+    }
+}
+
+/* Pictures Container */
+.about-me-pictures{
+    margin-top: 320px;
+}
+
+.about-me .about-me-pictures p{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 105px;
+}
+
+.about-me-pictures-wrapper {
+    display: grid;
+    grid-template-columns: 14% 14.63% 18% 12.53% 13.23% 19.95%;
+    grid-gap: 1.6%;
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+
+.about-me-pictures-wrapper img{
+    max-width: 100%;
+}
+
+@media(max-width: 1200px){
+    .about-me .about-me-pictures {
+        margin-top: 160px;
+    }
+
+    .about-me .about-me-pictures p{
+        max-width: 90%;
+    }
+}
+
+@media(max-width: 1090px){
+    .about-me .about-me-pictures {
+        margin-top: 100px;
+    }
+}
+
+@media(max-width: 767px){
+    .about-me .about-me-pictures{
+        margin-top: 120px;
+    }
+
+    .about-me .about-me-pictures p{
+        margin-bottom: 60px;
+    }
+
+    .about-me-pictures-wrapper{
+        grid-template-columns: 29.3% 30.26% 37%;
+        margin-bottom: 100px;
+    }
+
+    .about-me-pictures-wrapper img{
+        height: 100%;
+    }
+}
+
+@media(max-width: 580px){
+    .about-me-intro h1{
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    .about-me-intro-image{
+        max-width: 65%;
+    }
+
+    .about-me-pictures-wrapper{
+        margin-bottom: 60px;
+    }
+
+    .about-me .about-me-pictures{
+        margin-top: 60px;
+    }
+}
