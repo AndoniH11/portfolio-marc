@@ -310,10 +310,6 @@ a{
     padding-right: 60px;
 }
 
-.project-card:nth-child(2n) .text-container{
-    order: 2;
-}
-
 .project-card:nth-child(2n) .image-container img{
     position: static;
 }
@@ -385,6 +381,10 @@ a{
     transition: all 300ms;
 }
 
+.project-card.card4 .card-button a{
+    cursor: default;
+}
+
 .project-card .card-button:hover a{
     color: white;
 }
@@ -400,7 +400,7 @@ a{
 }
 
 .project-card.card4 .image-container{
-    width: 100%;
+    width:50%;
 }
 
 .project-card .image-container img{
@@ -415,6 +415,7 @@ a{
     right: 0;
     bottom: 3%;
     left: auto;
+position: absolute;
 }
 
 .project-card .image-container .blue-cloud{
@@ -429,6 +430,7 @@ a{
     left: auto;
     width: 60%;
     z-index: 2;
+position: absolute;
 }
 
 .project-card .image-container .red-cloud{
@@ -438,6 +440,7 @@ a{
 .project-card.card4 .image-container .red-cloud{
     display: block;
     top: 25%;
+position: absolute;
 }
 
 .project-card.card2 .image-container img,
@@ -792,9 +795,14 @@ a{
     .project-card.card4{
         padding-left: 25px;
         padding-right: 25px;
-        padding-top: 20px;
+        padding-top: 0px;
         margin-bottom: 80px;
     }
+
+.project-card .text-container{
+    width: 100%;
+max-width: 100%;
+}
 
     .home-container .project-card h2{
         font-size: 30px;
@@ -867,6 +875,11 @@ a{
         margin-top: 50px;
         margin-bottom: 280px;
     }
+
+.project-card .card-button{
+     margin-bottom: 210px;
+}
+
 
     .project-card .image-container img{
         width: 350px;
